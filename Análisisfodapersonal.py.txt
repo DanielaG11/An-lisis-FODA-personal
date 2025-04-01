@@ -1,0 +1,32 @@
+# Análisis FODA Personal
+foda_personal = {
+    "Fortalezas": [
+        "Emprendedora y con visión estratégica", 
+        "Creativa y apasionada por la moda", 
+        "Constante en el aprendizaje y crecimiento",
+        "Habilidad para adaptarse a nuevos retos",
+    ],
+    "Oportunidades": [
+        "Expansión de Moda Verona y crecimiento en redes", 
+        "Exploración de nuevos negocios como los granizados", 
+        "Conexión con nuevas comunidades y colaboraciones",
+        "Desarrollo de habilidades en marketing digital e IA"
+    ],
+    "Debilidades": [
+        "A veces muchas ideas a la vez y falta de foco",
+        "Necesidad de fortalecer la constancia en redes",
+        "No delego las tareas para optimizar tiempo",
+        "Falta de disciplina en algunas actividades",
+    ],
+    "Amenazas": [
+        "Alta competencia en moda y emprendimiento",
+        "Cambios en el mercado y tendencias digitales",
+        "Factores económicos externos que afectan negocios"
+    ]
+}
+
+# Mostrar Análisis FODA
+for clave, valores in foda_personal.items():
+    print(f"\n{clave}:")
+    for valor in valores:
+        print(f"- {valor}")
